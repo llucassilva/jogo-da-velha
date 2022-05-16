@@ -1,0 +1,46 @@
+body{
+    background-color: #484848;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+
+}
+.bnt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.btn h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+
+
+.botao{
+    width: 100%;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    font-size: 2rem;
+   
+}
+.botao a{
+    width: 100%;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}

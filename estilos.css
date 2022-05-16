@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    background-color: #484848;
+    height: 100vh;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    
+}
+h2, h3{
+    margin-top: -5px;
+    text-align: center;
+}
+
+#tela-escura{
+    width: 100%;
+    height: 100%;
+    opacity: 0.95%;
+    color: rgb(0, 0, 0);
+    display: none;
+    padding-top: 20px;
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+}
+.container{
+    
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0f928c;
+    border: 3px solid #fff;
+}
+
+.grid{
+    
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+}
+.celula{
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #00c9d2;
+
+}
+#saida{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/*  */
